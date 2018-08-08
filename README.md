@@ -2,4 +2,4 @@
 
 ## Ropten testnet
 
-[peer-point-drizzle.surge.sh](peer-point-drizzle.surge.sh)
+[peer-point-drizzle.surge.sh](https://peer-point-drizzle.surge.sh)
