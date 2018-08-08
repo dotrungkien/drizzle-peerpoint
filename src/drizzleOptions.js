@@ -1,6 +1,3 @@
-import ComplexStorage from './../build/contracts/ComplexStorage.json'
-import SimpleStorage from './../build/contracts/SimpleStorage.json'
-import TutorialToken from './../build/contracts/TutorialToken.json'
 import PeerPoint from './../build/contracts/PeerPoint.json'
 
 const drizzleOptions = {
@@ -12,14 +9,9 @@ const drizzleOptions = {
     }
   },
   contracts: [
-    ComplexStorage,
-    SimpleStorage,
-    TutorialToken,
     PeerPoint
   ],
-  events: {
-    SimpleStorage: ['StorageSet']
-  },
+  events: {},
   polls: {
     accounts: 1500
   }
