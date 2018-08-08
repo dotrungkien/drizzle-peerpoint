@@ -15,8 +15,9 @@ class Home extends Component {
 
           <div className="pure-u-1-1">
             <h2>PeerPoint</h2>
-            <p><strong>Balance </strong>: <ContractData contract="PeerPoint" method="balanceOf" methodArgs={[this.props.accounts[0]]}/></p>
-            <p><strong>Available Points </strong>: <ContractData contract="PeerPoint" method="pointOf" methodArgs={[this.props.accounts[0]]}/></p>
+            <p><strong>Sent</strong>: <ContractData contract="PeerPoint" method="sent" methodArgs={[this.props.accounts[0]]}/></p>
+            <p><strong>Received</strong>: <ContractData contract="PeerPoint" method="received" methodArgs={[this.props.accounts[0]]}/></p>
+            <p><strong>Available</strong>: <ContractData contract="PeerPoint" method="available" methodArgs={[this.props.accounts[0]]}/></p>
             <div>
               <h3>Redeem</h3>
               <ContractForm contract="PeerPoint" method="redeem">Redeem</ContractForm>
